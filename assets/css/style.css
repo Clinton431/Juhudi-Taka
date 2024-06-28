@@ -265,8 +265,13 @@
   
   .has-scrollbar::-webkit-scrollbar-button { width: 15%; }
   
+  #search-input {
+    display: none; /* Hidden by default */
+  }
   
-  
+  #search-input.visible {
+    display: block; /* Shown when the 'visible' class is added */
+  }
   
   
   /*-----------------------------------*\

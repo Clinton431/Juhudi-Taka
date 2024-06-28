@@ -49,3 +49,23 @@ window.addEventListener("scroll", function () {
   window.scrollY >= 400 ? header.classList.add("active")
     : header.classList.remove("active");
 }); 
+
+
+/* Search Icon */
+// Select the button element
+const searchButton = document.querySelector('.header-bottom-actions-btn');
+
+// Define the function to be executed when the button is clicked
+function handleSearchClick() {
+  // Example action: Toggle a search input field visibility
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.classList.toggle('visible');
+  } else {
+    // Perform a search or other action here
+    console.log('Search button clicked');
+  }
+}
+
+// Add an event listener to the button
+searchButton.addEventListener('click', handleSearchClick);
