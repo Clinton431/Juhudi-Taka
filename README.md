@@ -22,3 +22,4 @@ Become a partner: Collaborate with us to support our mission and promote a more 
 Together, let's create beautiful value from waste, empower communities, and inspire a more sustainable world!
 
 Visit Juhudi Taka today and discover the magic of transformation!
+# Juhudi-Taka
